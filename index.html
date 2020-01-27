@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>TODO List</title>
+</head>
+<body>
+
+<div class="title">TODO List</div>
+
+<div class="todo">
+    <form action="" class="add-task">
+        <div class="title-task form-item">
+            <label for="add-input" class="add-link form-item">Add Task</label>
+        </div>
+        <input placeholder=" | Enter text"
+               class="task-input form-item"
+               name="taskContent"
+               id="add-input"
+               type="text">
+        <button class="addBtn form-item" type="submit" name="btn"> Add <span>&#10010;</span></button>
+    </form>
+
+    <hr>
+
+    <div class="title-task">Task List</div>
+    <div class="tasks"></div>
+</div>
+
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
